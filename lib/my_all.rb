@@ -15,4 +15,6 @@ else
 end
 end
 
-my_all?([1, 2, 3]) {|i| i < 2}
+my_all?([1, 2, 3]) {|i| i < 2} #method called
+#when it hits yield(1), it is going to send 1 to the block and evaluate it, and send the return value back to yield.
+#my_all?([1, 2, 3]) {|1| 1 < 2} => true 
