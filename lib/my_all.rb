@@ -9,6 +9,7 @@ while i < collection.length
   i = i + 1
 end
 
+#add an include method to determine the return value of my_all? method. 
 if block_return_values.include?(false)
   false
 else
